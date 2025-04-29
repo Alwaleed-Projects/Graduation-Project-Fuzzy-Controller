@@ -41,5 +41,6 @@ This project aims to enhance hybrid energy system performance by integrating a F
 ## 📬 Contact
 **Alwaleed Abdullah Alzahrani**  
 Electrical Engineering Graduate  
-Email: [add your email here]  
+Email: alwaleedaldawsi@gmail.com 
+
 GitHub: [github.com/Alwaleed-Projects](https://github.com/Alwaleed-Projects)
