@@ -19,14 +19,36 @@ This project aims to enhance hybrid energy system performance by integrating a F
 
 ---
 
-## 📈 Results Summary
-| Controller | System Cost | Grid Sales (kWh/yr) | Grid Purchases (kWh/yr) |
-|-----------|--------------|---------------------|--------------------------|
-| CC+LF     | $25,341.07   | 7,087               | 3,215                    |
-| FLC + PSO | $25,274.32   | 3,549               | 4,535                    |
-| FLC + GA  | $38,740.13   | 2,888               | 4,771                    |
 
-> PSO showed the best cost-performance balance in this study.
+> 📝 Optimization results and system performance data are detailed within the PDF report and presentation slides.
+
+---
+
+## 📈 Key Results (Summary)
+
+| Controller | System Cost | Grid Sales (kWh/yr) | Grid Purchases (kWh/yr) |
+|------------|-------------|----------------------|---------------------------|
+| CC + LF    | $25,341.07  | 7,087                | 3,215                     |
+| FLC + PSO  | $25,274.32  | 3,549                | 4,535                     |
+| FLC + GA   | $38,740.13  | 2,888                | 4,771                     |
+
+> PSO showed the best cost-performance balance in this project.
+
+---
+
+## ▶️ How to Run
+
+1. Open `matlab-files/` in MATLAB.
+2. Open `CLF03.mat`.
+4. Use `pso_optimizer.m` or `ga_optimizer.m` to perform optimization.
+5. Go to HOMER and chose Matlab Link as a controller.
+6. add the diroctary of MatlabLink folder .
+
+---
+
+## 📄 License
+
+This project is provided for academic and demonstration purposes.
 
 ---
 
