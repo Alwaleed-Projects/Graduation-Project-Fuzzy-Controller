@@ -5,54 +5,54 @@ This project aims to enhance hybrid energy system performance by integrating a F
 ---
 
 ## 📌 Project Objectives
-
-- Design and implement a fuzzy logic controller to manage energy flow in a hybrid system (PV, Wind, Battery, Grid).
-- Optimize the FLC using PSO and GA to minimize cost and improve efficiency.
-- Compare the results with traditional HOMER control methods: Load Following (LF) and Cycle Charging (CC).
-
----
-
-## 🧪 Preliminary Motor Control Simulation
-
-Before applying the FLC in the hybrid energy system, a motor speed control simulation was built using MATLAB/Simulink.  
-This step validated the behavior of the controller and optimization algorithms (PSO/GA) in a simpler system.
-
-> 📁 Folder: `motor-control/`  
-Includes MATLAB files for:
-- Fuzzy logic motor speed controller
-- PSO and GA optimizers
-- Simulation plots and results
+- Develop and implement an FLC to manage energy flow in hybrid systems (PV, Wind, Battery, Grid).
+- Optimize the FLC using PSO and GA to reduce operational costs and improve efficiency.
+- Compare results with conventional HOMER control methods: Load Following (LF) and Cycle Charging (CC).
 
 ---
 
 ## 🧠 Tools & Software
-
-- MATLAB (Fuzzy Logic Toolbox + custom scripts)
-- HOMER Software (for hybrid system modeling)
-- PSO & GA algorithms
-- Microsoft Excel (data handling)
+- MATLAB (Fuzzy Logic Toolbox + Scripts)
+- HOMER Software (Energy Modeling)
+- PSO and GA algorithms
+- Excel (for data handling)
 
 ---
 
-## 📈 Key Results Summary
+## 📈 Key Results (Summary)
 
-| Controller    | System Cost | Grid Sales (kWh/yr) | Grid Purchases (kWh/yr) |
-|---------------|-------------|----------------------|--------------------------|
-| CC + LF       | $25,341.07  | 7,087                | 3,215                    |
-| FLC + PSO     | $25,274.32  | 3,549                | 4,535                    |
-| FLC + GA      | $38,740.13  | 2,888                | 4,771                    |
+| Controller      | System Cost | Grid Sales (kWh/yr) | Grid Purchases (kWh/yr) |
+|-----------------|-------------|----------------------|--------------------------|
+| CC + LF         | $25,341.07  | 7,087                | 3,215                    |
+| FLC + PSO       | $25,274.32  | 3,549                | 4,535                    |
+| FLC + GA        | $38,740.13  | 2,888                | 4,771                    |
 
-> PSO provided the best cost-performance balance.
+> **Insight:** PSO showed the best cost-performance balance in this project.
+
+---
+
+## ⚙️ Additional Component – Motor Control Simulation
+
+Before implementing the final hybrid system, a motor control simulation was developed in MATLAB to test and verify the behavior of the Fuzzy Logic Controller and the optimization algorithms (PSO/GA).  
+This was a preparatory step to identify and resolve issues before full system deployment.
+
+**Folder:** `/motor-control/`
+
+Includes:
+- MATLAB simulation files (Simulink models + scripts)
+- Fuzzy Logic design and optimization routines
+- Used for validating logic, not for result reporting (results are in the main report)
+
 
 ---
 
 ## ▶️ How to Run
 
-1. Open `matlab-files/` in MATLAB.
-2. Load `CLF03.mat` (Fuzzy Logic Controller).
-3. Run `pso_optimizer.m` or `ga_optimizer.m` to perform optimization.
-4. In HOMER, choose **Matlab Link** as the controller.
-5. Ensure `MatlabLink` folder is added to MATLAB path.
+1. Open the `matlab-files/` folder in MATLAB.
+2. Load `CLF03.mat`.
+3. Use `pso_optimizer.m` or `ga_optimizer.m` to perform optimization.
+4. In HOMER, choose **MATLAB Link** as the controller.
+5. Make sure to add the directory of the `MatlabLink` folder to HOMER.
 
 ---
 
@@ -61,8 +61,9 @@ Includes MATLAB files for:
 - 📄 Final Report (PDF)
 - 🎞️ Presentation Slides
 - 📊 Graphs and Figures
-- 🧪 Optimization results (fitness plots)
-- 🛠️ Motor control simulation (MATLAB/Simulink)
+- 🧪 Optimization results (Fitness plots)
+- 🔧 MATLAB scripts and controllers
+- ⚙️ Motor control test project
 
 ---
 
@@ -79,4 +80,4 @@ You are free to use, modify, and distribute the code, but proper credit must be 
 **Alwaleed Abdullah Alzahrani**  
 Electrical Engineering Graduate  
 📧 alwaleedaldawsi@gmail.com  
-🌐 GitHub: [github.com/Alwaleed-Projects](https://github.com/Alwaleed-Projects)
+🔗 [GitHub Profile](https://github.com/Alwaleed-Projects)
