@@ -29,6 +29,8 @@ This project aims to enhance hybrid energy system performance by integrating a F
 
 > **Insight:** PSO showed the best cost-performance balance in this project.
 
+Achieved $66.75 cost reduction and 15% improvement in renewable energy utilization compared to traditional controllers.
+
 ---
 
 ## ⚙️ Additional Component – Motor Control Simulation
